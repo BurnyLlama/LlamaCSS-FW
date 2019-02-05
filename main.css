@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Noto';
+  src: url(./fonts/NotoSans.ttf);
+}
+/*Import the color-classes.*/
+@import "color.css";
+
+
+//Basic CSS
+html, body {
+  margin: 0; padding: 0; font-family: 'NotoSans' sans-serif;
+}
