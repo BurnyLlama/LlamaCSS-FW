@@ -1,6 +1,90 @@
-p {
+/**/
+/*VARIABLES*/
+/**/
+/*Normal*/
+* {
   --red: #ff4b4b;
+  --yellow: #ffff4b;
+  --green: #4bff4b;
+  --cyan: #4bffff;
+  --blue: #4b4bff;
+  --purple: #ff4bff;
+  --black: #111;
+  --white: #eee;
 }
-p {
-  color: #bb555a;
+/*Bright*/
+* {
+  --redB: #ff5c5c;
+  --yellowB: #ffff5c;
+  --greenB: #5cff5c;
+  --cyanB: #5cffff;
+  --blueB: #5c5cff;
+  --purpleB: #ff5cff;
+  --blackB: #111;
+  --whiteB: #ddd;
+}
+
+/*Dark*/
+* {
+  --redD: #ff3a3a;
+  --yellowD: #ffff3a;
+  --greenD: #3aff3a;
+  --cyanD: #3affff;
+  --blueD: #3a3aff;
+  --purpleD: #ff3aff;
+  --blackD: #222;
+  --whiteD: #fff;
+}
+/*Primary*/
+* {
+  --primary: var(--red);
+  --primaryB: var(--redB);
+  --primaryD: var(--redD);
+}
+
+
+
+/**/
+/*STYLES*/
+/**/
+/*Here you can change the default primary colors: */
+#primary {
+  color: var(--red)
+}
+.primary {
+  color: var(--red)
+}
+#primaryB {
+  color: var(--redB)
+}
+.primaryB {
+  color: var(--redB)
+}
+#primaryD {
+  color: var(--redD)
+}
+.primaryD {
+  color: var(--redD)
+}
+
+
+
+/*Normal*/
+.red {
+  color: var(--red);
+}
+.yellow {
+  color: var(--yellow)
+}
+.green {
+  color: var(--green);
+}
+.cyan {
+  color: var(--cyan);
+}
+.blue {
+  color: var(--blue);
+}
+.purple {
+  color: var(--purple)
 }

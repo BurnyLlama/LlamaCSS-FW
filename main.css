@@ -1,19 +1,62 @@
-@font-face {
-  font-family: 'Noto';
-  src: url(./fonts/NotoSans.ttf);
-}
+@import "./palette/color.css";
+@import "./fonts/fonts.css";
+@import "forms.css";
+@import "lists.css";
 
-/*Import the color-classes.*/
-@import url("./palette/color.css");
-
-
-//Basic CSS
-html, body {
-  margin: 0; padding: 0; font-family: 'NotoSans' sans-serif;
-}
+/*Basic CSS - Probably no need to change...*/
 html {
+  margin: 0; padding: 0; font-family: 'font' sans-serif; outline: 0;
+}
+
+/*Change Default Size*/
+:root {
   font-size: 14pt;
 }
+/**/
+
+
+/*BASIC TEXT*/
 p {
-  font-size: 1rem; color: var(--red);
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+h6 {
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+/**/
+/*Miscellanious styles...*/
+/**/
+.resize {
+  resize: both;
+}
+.resizeH {
+  resize: horizontal;
+}
+.resizeV {
+  resize: vertical;
+}
+.noResize {
+  resize: none;
 }
