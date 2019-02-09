@@ -6,7 +6,7 @@ It will be kind of basic because I make it...
 
 It will be somewhat responsive too.
 
-(By now it's pure CSS, no JavaScript. Excluding demo.html)
+(By now it's pure CSS, no JavaScript. Excluding index.html)
 
 If you decide to use it for yourself there is **no need** to credit me, although I would prefer and like if you credited me.
 
