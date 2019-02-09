@@ -1,6 +1,10 @@
 ul {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
+}
+li {
+  padding: .3rem;
+  display: table;
 }
 ul li::before {
   content: "\2022";

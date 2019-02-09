@@ -19,7 +19,12 @@ Again easy, go to `main.css` and there you'll find `:root` change the `font-size
 
 ---
 # Use:
-On instructions on how to use please refer to the included `guide.html`
+On instructions on how to use please refer to the included [click here](https://burnyllama.tk/css).
+
+If you want an easy way to use the style-sheet add this in the <head> of your HTML document:
+```
+<link href="https://burnyllama.tk/css/main.css">
+``` 
 
 ---
 # Credits:
