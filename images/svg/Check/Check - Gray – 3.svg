@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Check_-_Gray_3);
+      }
+
+      .cls-2 {
+        fill: #4b4b4b;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 200px;
+        font-family: SegoeUIEmoji, Segoe UI Emoji;
+      }
+    </style>
+    <clipPath id="clip-Check_-_Gray_3">
+      <rect width="300" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="Check_-_Gray_3" data-name="Check - Gray – 3" class="cls-1">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="137.5" cy="137.5" r="137.5" transform="translate(13 13)"/>
+    <text id="_" data-name="✓" class="cls-3" transform="translate(74 233)"><tspan x="0" y="0">✓</tspan></text>
+  </g>
+</svg>

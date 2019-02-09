@@ -1,7 +1,11 @@
 @import "./palette/color.css";
-@import "./fonts/fonts.css";
-@import "forms.css";
-@import "lists.css";
+@import "./text/fonts.css";
+@import "./text/text.css";
+@import "./forms/forms.css";
+@import "./lists/lists.css";
+@import "./images/images.css";
+@import "./grid/grid.css";
+
 
 /*Basic CSS - Probably no need to change...*/
 html {
@@ -10,40 +14,9 @@ html {
 
 /*Change Default Size*/
 :root {
-  font-size: 14pt;
+  font-size: 12pt;
 }
 /**/
-
-
-/*BASIC TEXT*/
-p {
-  font-size: 1rem;
-}
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-}
-h2 {
-  font-size: 2rem;
-  font-weight: normal;
-}
-h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-h4 {
-  font-size: 1.5rem;
-  font-weight: normal;
-}
-h5 {
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-h6 {
-  font-size: 1.25rem;
-  font-weight: normal;
-}
 
 /**/
 /*Miscellanious styles...*/
@@ -59,4 +32,13 @@ h6 {
 }
 .noResize {
   resize: none;
+}
+
+.note {
+  border-left: .2rem var(--primary) solid;
+  border-radius: .15rem;
+  padding: .4rem .8rem; margin: 0;
+  font-size: .9rem;
+  background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex;
 }

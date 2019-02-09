@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Menu_-_Dark_2);
+      }
+
+      .cls-2 {
+        fill: #222;
+      }
+    </style>
+    <clipPath id="clip-Menu_-_Dark_2">
+      <rect width="300" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="Menu_-_Dark_2" data-name="Menu - Dark – 2" class="cls-1">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="275" height="40" transform="translate(12.289 53.775)"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="275" height="40" transform="translate(12.289 205.446)"/>
+    <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="275" height="40" transform="translate(12.289 129.611)"/>
+  </g>
+</svg>

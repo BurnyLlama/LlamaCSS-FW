@@ -1,3 +1,4 @@
+@import "animations.css";
 input {
   padding: .2rem; margin: .1rem;
   font-size: 0.85rem;
@@ -7,13 +8,23 @@ input {
 input[type=text], input[type=password] {
   border-bottom: var(--primary) .1rem solid;
 }
+input[type=text]:focus, input[type=password]:focus {
+  animation: textFieldFocus forwards .25s;
+}
+input[type=radio], input[type=checkbox] {
+  user-select: all;
+}
 textarea {
   padding: .2rem;
   font-size: .8rem;
-  outline: 0; resize: none;
+  outline: 0;
+  font-family: 'font', sans-serif;
 }
 button {
   padding: .5rem; margin: .1rem;
   font-size: 1rem;
   border: 0; outline: 0;
+}
+button:focus {
+  animation: buttonClick forwards .25s;
 }

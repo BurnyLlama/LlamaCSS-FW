@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Mail_-_Black);
+      }
+
+      .cls-2, .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 5px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-Mail_-_Black">
+      <rect width="300" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="Mail_-_Black" data-name="Mail - Black" class="cls-1">
+    <g id="Intersection_1" data-name="Intersection 1" class="cls-2" transform="translate(314.816 201.88) rotate(180)">
+      <path class="cls-4" d="M36.816,128.064,164.316,5.818l127.5,122.246Z"/>
+      <path class="cls-5" d="M 279.3767395019531 123.063720703125 L 164.3158721923828 12.74452304840088 L 49.25579071044922 123.063720703125 L 279.3767395019531 123.063720703125 M 291.8162841796875 128.063720703125 L 36.81631851196289 128.063720703125 L 164.3158569335938 5.817615032196045 L 291.8162841796875 128.063720703125 Z"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" class="cls-3" transform="translate(23 74)">
+      <rect class="cls-4" width="255" height="153"/>
+      <rect class="cls-6" x="2.5" y="2.5" width="250" height="148"/>
+    </g>
+  </g>
+</svg>

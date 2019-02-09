@@ -1,0 +1,130 @@
+/*ALIGNING CLASSES*/
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/*SIZES*/
+.text-smaller {
+  font-size: .5rem
+}
+.text-small {
+  font-size: .8rem;
+}
+.text-normal {
+  font-size: 1rem;
+}
+.text-big {
+  font-size: 1.2rem;
+}
+.text-bigger {
+  font-size: 1.5rem;
+}
+
+/*TEXT INDENTATION*/
+.indent-long {
+  margin-left: 8rem;
+}
+.indent-normal {
+  margin-left: 5rem;
+}
+.indent-short {
+  margin-left: 2rem;
+}
+
+/*FONT CUSTOMIZATIONS*/
+.nocaps {
+  text-transform: lowercase;
+}
+.allcaps, .uppercase {
+  text-transform: uppercase;
+}
+.auto-capitalize {
+  text-transform: capitalize;
+}
+.text-full-width {
+  text-transform: full-width;
+}
+
+
+/*TEXT DECORATION*/
+.underline {
+  text-decoration: underline;
+}
+.overline {
+  text-decoration: overline;
+}
+.line-through {
+  text-decoration: line-through;
+}
+
+
+
+
+/*BASIC TEXT*/
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin: 0;
+}
+h2 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 0;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+h4 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+}
+h6 {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin: 0;
+}
+b {
+  font-weight: bold;
+}
+i {
+  font-style: italic;
+}
+em {
+  font-style: italic;
+  font-weight: bold;
+}
+u {
+  text-decoration: underline;
+}
+var {
+  font-style: oblique;
+  font-family: monospace;
+}
+code {
+  font-family: monospace;
+  line-height: 0;
+}
+span {
+  color: var(--primary);
+}

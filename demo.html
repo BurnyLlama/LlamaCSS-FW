@@ -2,72 +2,104 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Demo LlamaCSS FW</title>
+    <title>LlamaCSS FW Guide</title>
     <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div>
-      <p>Basic text:</p>
-      <p>Paragraph</p> <br>
-      <i>Italic</i> <br>
-      <em>Emphasised</em> <br>
-      <b>Bold</b> <br>
-      <u>Underline</u>
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
-      <h3>Heading 3</h3>
-      <h4>Heading 4</h4>
-      <h5>Heading 5</h5>
-      <h6>Heading 6</h6>
-      <label>Label</label>
-    </div>
+    <div class="grid-root">
+<div class="grid-content">
+  <br> <br>
+      <h1 class="text-center">LlamaCSS Framework Guide</h1>
+      <p>This is a guide for the LlamaCSS Framework. This guide is made by BurnyLlama who also made framework. <br>
+      This guide page is of course built on the framework and will go over most of the stuff.</p> <br> <br>
 
-    <div>
-      <p>Inputs</p>
-      <button>Button</button> <br>
-      <textarea placeholder="Textarea" class="noResize">Textarea with 'class="noResize"'</textarea> <br>
-      <input type="text" placeholder="Text"> <br>
-      <input type="color"> <br>
-      <input type="file"> <br>
-      <input type="checkbox"> <br>
-      <input type="radio"> <br>
-    </div>
 
-    <div>
-      <p>Lists</p>
+      <h2 class="text-center underline">Text-based features</h2>
+      <p>This chapter is about different ways to style texts.</p> <br>
+
+
+      <h5 class="indent-short">Basic text</h5>
+      <p>Using text is mostly simple. You get normal text with paragraphs.<br>
+      You can also get bold text with the b-tag. Italic with the i-tag and both with the em-tag. <br>
+      <b>bold</b> <br>
+      <i>italic</i> <br>
+      <em>emphasised</em> <br>
+      <u>underline</u>
+    </p> <br>
+
+      <h5 class="indent-short">Line through, underline, overline</h5>
+      <p>You can use different classes to get underlined, line throygh and overline:</p>
+      <p class="underline">underline</p>
+      <p class="line-through">line-through</p>
+      <p class="overline">overline</p> <br>
+
+      <h5 class="indent-short">Choose different sizes of text.</h5>
+      <p>I have also included styles for customizing the size of paragraphs:</p>
       <ul>
-        <li>Object 1</li>
-        <li>Object 2</li>
-        <li>Object 3</li>
-        <li>Object 4</li>
+        <li class="text-smaller">text-smaller</li>
+        <li class="text-small">text-small</li>
+        <li class="text-normal">text-normal</li>
+        <li class="text-big">text-big</li>
+        <li class="text-bigger">text-bigger</p>
+      </ul> <br>
+
+      <h5 class="indent-short">Indentation</h5>
+      <p>There's also three dofferent styles for indentation:</p>
+      <p class="indent-short">indent-short</p>
+      <p class="indent-normal">indent-normal</p>
+      <p class="indent-long">indent-long</p> <br>
+
+      <h5 class="indent-short">Align text</h5>
+      <p>You can align the text by applying classes: <br>
+      text-left, text-center, text-right, text-justify </p> <br>
+
+      <h5 class="indent-short">Text customizations</h5>
+      <p class="allcaps">allcaps</p>
+      <p class="note">Important! The allcaps class is written in lowercase.</p>
+      <p class="nocaps">NOCAPS</p>
+      <p class="auto-capitalize">auto-capitalize</p>
+      <p class="note">Important! The auto-capitalize class is written in lowercase.</p> <br> <br>
+
+      <h5 class="indent-short">Important/Note box</h5>
+      <p class="note">You can use the "note" class on nearly any element to create one of these boxes. <br> I would recommend a paragraph though. </p> <br> <br> <br>
+
+      <h2 class="text-center underline">Lists</h2>
+      <p>I've made some customizations to lists too.</p>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
         <ul>
-          <li>Object 4.1</li>
-          <li> Object 4.2</li>
+          <li>item.3.1</li>
+          <li>item 3.2</li>
+          <li>item 3.3</li>
           <ul>
-            <li>Object 4.2.1</li>
-            <li> Object 4.2.2</li>
+            <li>item 3.3.1</li>
+            <li>item 3.3.2</li>
+            <li>item 3.3.3</li>
           </ul>
         </ul>
       </ul>
-      <ol>
-        <li>Object 1</li>
-        <li>Object 2</li>
-        <li>Object 3</li>
-        <li>Object 4</li>
-        <ol>
-          <li>Object 4.1</li>
-          <li> Object 4.2</li>
-          <ol>
-            <li>Object 4.2.1</li>
-            <li> Object 4.2.2</li>
-          </ol>
-        </ol>
-      </ol>
-    </div>
-    <div>
-      <p>Programming</p>
-      <code>Some sample code...</code> <br>
-      <var>Variable</var>
+      <p>As seen above I've made some customizations to unordered lists. <br>
+         The dots change color and text gets smaller after nesting. I've made no customizations for further nesting.</p>
+
+      <h2 class="text-center underline">Color features</h2>
+      <p>I've made som color-classes that comes preloaded with the framework:</p>
+      <ul>
+        <li class="red">red</li>
+        <li class="yellow">yellow</li>
+        <li class="green">green</li>
+        <li class="blue">blue</li>
+        <li class="cyan">cyan</li>
+        <li class="purple">purple</li>
+        <li class="black">black</li>
+        <li class="white blackBG">white</li>
+        <li class="transparent">transparent</li>
+      </ul>
+
+
+</div>
     </div>
   </body>
 </html>

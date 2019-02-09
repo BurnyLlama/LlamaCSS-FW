@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'font';
+  src: url(NotoSans.ttf);
+}
+@font-face {
+  font-family: 'llama';
+  src: url(LlamaFont.ttf);
+}
+@font-face {
+  font-family: 'alpacca';
+  src: url(AlpaccaFont.ttf);
+}

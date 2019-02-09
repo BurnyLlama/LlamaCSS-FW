@@ -1,0 +1,18 @@
+@keyframes textFieldFocus {
+  0% {
+    border-bottom: var(--primary) .1rem solid;
+  }
+  100%{
+    border-bottom: var(--primary) .15rem solid;
+    background: var(--transparentB); border-radius: .5rem;
+  }
+}
+@keyframes buttonClick {
+  0% {
+    border-radius: 0;
+  } 50% {
+    border-radius: 1rem;
+  } 100% {
+    border-radius: 0;
+  }
+}

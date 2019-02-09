@@ -1,0 +1,5 @@
+.avatar { /*Change to any available color if you want to, this is applied if no image is specified in the 'src' attribute.*/
+  background: url("./svg/Profile/black.svg");
+  width: 14rem; height: auto;
+  border-radius: 50%;
+}

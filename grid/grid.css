@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+.grid-root {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.grid-spacer {
+  width: 100%;
+}
+.grid-content {
+  grid-column: 2 / 11;
+}
