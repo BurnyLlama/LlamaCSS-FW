@@ -29,3 +29,5 @@ If that doesn't work just download all files put them in the same directory as y
 
 # Credits:
 NotoSans - Google
+Roboto Mono - Christian Robertson
+The code and style choises - BurnyLlama (Me)  

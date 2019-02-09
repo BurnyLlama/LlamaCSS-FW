@@ -35,9 +35,9 @@ html {
 }
 
 .note {
-  border-left: .2rem var(--primary) solid;
+  border-left: .3rem var(--primary) solid;
   border-radius: .15rem;
-  padding: .4rem .8rem; margin: 0;
+  padding: .5rem 1rem; margin: .5rem 1rem;
   font-size: .9rem;
   background: var(--transparentB);
   flex-shrink: 100%;   display: inline-flex;

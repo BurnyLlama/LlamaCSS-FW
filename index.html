@@ -15,10 +15,19 @@
       This guide page is of course built on the framework and will go over most of the stuff. <br> <br>
       <em>Is there any advantage using a css-framework?</em> <br>
       Yes - if you use a css-framework and update the page there will be no design issues, as you may have encountered when making pages and making changes to your css your browser sometimes caches the old styles and can only display the old styles. Having a css-framework will fix this. <br>
-      Also devoloping a new page will be faster because you don't have to make a new stylesheet. </p> <br> <br>
+      Also devoloping a new page will be faster because you don't have to make a new stylesheet. </p> <br>
+      <p>To use the framework easily add this in your HTML head-tag:</p>
+      <code>&lt;link href="https://burnyllama.tk/css/main.css" rel=“stylesheet”&gt;</code> <br> <br>
+      <a href="https://github.com/BurnyLlama/LlamaCSS-FW" target="_blank">Official Git Repo↗</a> <br> <br> <br> <br>
 
-
-      <h2 class="text-center underline">Text-based features</h2>
+      <h3>Content:</h3>
+      <ul class="content-list">
+        <li><a href="#text_features">Text Features</a></li>
+        <li><a href="#list_features">List Features</a></li>
+        <li><a href="#colors">Colors</a></li>
+      </ul>
+      <br> <br> <br> <br> <br>
+       <a href="#" name="text_features"></a><h2 class="text-center underline">Text-based features</h2>
       <h5 class="indent-short">Basic text</h5>
       <p>Using text is mostly simple. You get normal text with paragraphs.<br>
       You can also get bold text with the b-tag, italic with the i-tag, both with the em-tag. Lastly you can use the u-tag for underlining. <br>
@@ -62,9 +71,10 @@
       <p class="note">Important! The auto-capitalize class is written in lowercase.</p> <br> <br>
 
       <h5 class="indent-short">Important/Note box</h5>
-      <p class="note">You can use the "note" class on nearly any element to create one of these boxes. <br> I would recommend a paragraph though. </p> <br> <br> <br>
+      <p class="note">You can use the "note" class on nearly any element to create one of these boxes. <br> I would recommend a paragraph though. </p>
+      <p>As of now you can only change color of the text and background. I will probably work on classes that will make you able to change the color of the border.</p> <br> <br> <br>
 
-      <h2 class="text-center underline">Lists</h2>
+      <a href="#" name="list_features"></a><h2 class="text-center underline">Lists</h2>
       <p>I've made some customizations to lists too.</p>
       <ul>
         <li>item 1</li>
@@ -82,9 +92,13 @@
         </ul>
       </ul>
       <p>As seen above I've made some customizations to unordered lists. <br>
-         The dots change color and text gets smaller after nesting. I've made no customizations for further nesting.</p>
+         The dots change color and text gets smaller after nesting. I've made no customizations for further nesting.</p> <br>
+      <ol>
+        
+      </ol>
 
-      <h2 class="text-center underline">Color features</h2>
+
+      <a href="#" name="colors"></a> <h2 class="text-center underline">Color features</h2>
       <p>I've made som color-classes that comes preloaded with the framework:</p>
       <ul>
         <li class="red">red</li>
@@ -111,6 +125,8 @@
       </ul> <br>
       <p class="note">By adding a "D" or a "B" for a Darker or Brighter color. <br>
         Important! If you want to do the same with the background add the "B" or "D" before the "BG".</p>
+      <p>You can go to <var>/palette/colors.css</var> and customize the colors. <br>
+          Even add new colors although not really that recommended.</p>
 
 </div>
     </div>

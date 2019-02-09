@@ -10,3 +10,7 @@
   font-family: 'alpacca';
   src: url(AlpaccaFont.ttf);
 }
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(RobotoMono.ttf);
+}

@@ -32,5 +32,34 @@ ul ul ul li::before {
  }
 
  ul ul ul {
-   font-size: .8rem;
+  font-size: .8rem;
  }
+ol ol {
+  font-size: .9rem;
+}
+ol ol ol {
+  font-size: .8rem;
+}
+.content-list li a {
+  font-size: 1.1rem;
+  color: var(--primary);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding: .2rem .3rem;
+}
+.content-list li {
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding: .2rem .3rem; margin: .2rem .3rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.content-list li::before {
+  content: "#";
+  font-size: 1.5rem;
+}

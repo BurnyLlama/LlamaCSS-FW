@@ -66,9 +66,6 @@
   text-decoration: line-through;
 }
 
-
-
-
 /*BASIC TEXT*/
 p {
   font-size: 1rem;
@@ -118,13 +115,23 @@ u {
   text-decoration: underline;
 }
 var {
-  font-style: oblique;
-  font-family: monospace;
+  font-style: normal;
+  font-family: 'Roboto Mono', monospace;
+  padding: .05rem; margin: .1rem;
+  background: var(--transparentB);
 }
 code {
-  font-family: monospace;
-  line-height: 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: .85rem;
+  padding: .4rem;
+  background: var(--transparentB)
 }
 span {
   color: var(--primary);
+}
+a {
+  color: var(--blue);
+}
+a:visited {
+  color: var(--purple);
 }
