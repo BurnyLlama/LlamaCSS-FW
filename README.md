@@ -22,8 +22,10 @@ On instructions on how to use please refer to the included [click here](https://
 
 If you want an easy way to use the style-sheet add this in the <head> of your HTML document:
 ```
-<link href="https://burnyllama.tk/css/main.css">
+<link href="https://burnyllama.tk/css/main.css" rel="stylesheet">
 ```
+
+If that doesn't work just download all files put them in the same directory as your HTML-file and link to the `main.css`
 
 # Credits:
 NotoSans - Google
