@@ -33,13 +33,40 @@ ul ul ul li::before {
 
  ul ul ul {
   font-size: .8rem;
- }
+}
+
+
+ol {
+    list-style-type: none;
+}
+ol li {
+    counter-increment: count-me;
+}
+ol li::before {
+    content: counter(count-me);
+    display: inline-block;
+    margin-right: 1rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+ol ol li::before {
+    content: counter(count-me);
+    color: var(--blue);
+    font-weight: bold;
+}
+ol ol ol li::before {
+    content: counter(count-me);
+    color: var(--purple);
+    font-weight: bold;
+}
 ol ol {
   font-size: .9rem;
 }
 ol ol ol {
   font-size: .8rem;
 }
+
+
 .content-list li a {
   font-size: 1.1rem;
   color: var(--primary);

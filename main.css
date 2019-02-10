@@ -9,12 +9,13 @@
 
 /*Basic CSS - Probably no need to change...*/
 html {
-  margin: 0; padding: 0; font-family: 'font' sans-serif; outline: 0;
+  margin: 0; padding: 0; font-family: 'font', sans-serif; outline: 0;
 }
 
 /*Change Default Size*/
 :root {
   font-size: 12pt;
+  margin: 0; padding: 0;
 }
 /**/
 
@@ -41,4 +42,26 @@ html {
   font-size: .9rem;
   background: var(--transparentB);
   flex-shrink: 100%;   display: inline-flex;
+}
+
+/*Horizontal Rullers*/
+hr {
+  border: var(--primary) solid .05rem;
+  margin: 1rem 0;
+}
+.short-hr {
+  width: 40%;
+  border: var(--primary) solid .05rem;
+}
+.hr-center {
+  margin: 0 auto;
+}
+.hr-dashed {
+  border: var(--primary) dashed .05rem;
+}
+.hr-thick {
+  border: var(--primary) solid .1rem;
+}
+.hr-thick-dashed {
+  border: var(--primary) dashed .1rem;
 }

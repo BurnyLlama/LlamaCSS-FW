@@ -8,6 +8,15 @@
 .grid-spacer {
   width: 100%;
 }
-.grid-content {
-  grid-column: 2 / 11;
+.grid-content-wrapper-small {
+  grid-column: 2 / 12;
+}
+.grid-content-wrapper {
+  grid-column: 3 / 11;
+}
+.grid-content-wrapper-big {
+  grid-column: 4 / 10;
+}
+.grid-content-nowrapper {
+  grid-column: 1 / 13;
 }

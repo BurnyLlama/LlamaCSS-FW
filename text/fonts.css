@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'font';
+  font-family: 'font' !important;
   src: url(NotoSans.ttf);
 }
 @font-face {

@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>LlamaCSS FW Guide</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="grid-root">
-<div class="grid-content">
+<div class="grid-content-wrapper-small">
   <br> <br>
-      <h1 class="text-center">LlamaCSS Framework Guide</h1>
+      <h1 class="text-center primary">LlamaCSS Framework Guide</h1>
+      <hr class="hr-thick hr-thick-dashed"> <br>
       <p>This is a guide for the LlamaCSS Framework. This guide is made by BurnyLlama who also made framework. <br>
       This guide page is of course built on the framework and will go over most of the stuff. <br> <br>
       <em>Is there any advantage using a css-framework?</em> <br>
@@ -25,16 +26,20 @@
         <li><a href="#text_features">Text Features</a></li>
         <li><a href="#list_features">List Features</a></li>
         <li><a href="#colors">Colors</a></li>
+        <li><a href="#grid">Grid Guide</a></li>
       </ul>
-      <br> <br> <br> <br> <br>
-       <a href="#" name="text_features"></a><h2 class="text-center underline">Text-based features</h2>
+      <br>
+
+<hr>
+       <a href="#" name="text_features"></a><h2 class="text-center underline primary">Text-based features</h2>
       <h5 class="indent-short">Basic text</h5>
       <p>Using text is mostly simple. You get normal text with paragraphs.<br>
-      You can also get bold text with the b-tag, italic with the i-tag, both with the em-tag. Lastly you can use the u-tag for underlining. <br>
+      You can also get bold text with the b-tag, italic with the i-tag, both with the em-tag. You can use the u-tag for underlining. Strong makes all letters capitalized and bold.<br>
       <b>bold</b> <br>
       <i>italic</i> <br>
       <em>emphasised</em> <br>
-      <u>underline</u>
+      <u>underline</u> <br>
+      <strong>strong</strong>
     </p> <br>
 
       <h5 class="indent-short">Line through, underline, overline</h5>
@@ -68,13 +73,14 @@
       <p class="note">Important! The allcaps class is written in lowercase.</p>
       <p class="nocaps">NOCAPS</p>
       <p class="auto-capitalize">auto-capitalize</p>
-      <p class="note">Important! The auto-capitalize class is written in lowercase.</p> <br> <br>
+      <p class="note note-blue  ">Important! The auto-capitalize class is written in lowercase.</p> <br> <br>
 
       <h5 class="indent-short">Important/Note box</h5>
       <p class="note">You can use the "note" class on nearly any element to create one of these boxes. <br> I would recommend a paragraph though. </p>
       <p>As of now you can only change color of the text and background. I will probably work on classes that will make you able to change the color of the border.</p> <br> <br> <br>
 
-      <a href="#" name="list_features"></a><h2 class="text-center underline">Lists</h2>
+<hr>
+      <a href="#" name="list_features"></a><h2 class="text-center underline primary">Lists</h2>
       <p>I've made some customizations to lists too.</p>
       <ul>
         <li>item 1</li>
@@ -91,14 +97,27 @@
           </ul>
         </ul>
       </ul>
-      <p>As seen above I've made some customizations to unordered lists. <br>
-         The dots change color and text gets smaller after nesting. I've made no customizations for further nesting.</p> <br>
+<hr class="short-hr hr-dashed">
       <ol>
-        
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <ol>
+          <li>item.3.1</li>
+          <li>item 3.2</li>
+          <li>item 3.3</li>
+          <ol>
+            <li>item 3.3.1</li>
+            <li>item 3.3.2</li>
+            <li>item 3.3.3</li>
+          </ol>
+        </ol>
       </ol>
+      <p>As seen above I've made some customizations to unordered lists. <br>
+         The dots/numbers change color and text gets smaller after nesting. I've made no customizations for further nesting.</p> <br>
 
-
-      <a href="#" name="colors"></a> <h2 class="text-center underline">Color features</h2>
+<hr>
+      <a href="#" name="colors"></a> <h2 class="text-center underline primary">Color features</h2>
       <p>I've made som color-classes that comes preloaded with the framework:</p>
       <ul>
         <li class="red">red</li>
@@ -123,11 +142,39 @@
         <li class="whiteBG">white</li>
         <li class="transparentBG">transparent</li>
       </ul> <br>
-      <p class="note">By adding a "D" or a "B" for a Darker or Brighter color. <br>
+      <p class="note note-yellow">By adding a "D" or a "B" for a Darker or Brighter color. <br>
         Important! If you want to do the same with the background add the "B" or "D" before the "BG".</p>
       <p>You can go to <var>/palette/colors.css</var> and customize the colors. <br>
           Even add new colors although not really that recommended.</p>
 
+
+<hr>
+      <a href="#" name="grid"></a> <h2 class="underline text-center primary">Grid Guide</h2>
+      <h5 class="indent-short">How is the grid of this page done?</h5>
+      <p>Here is a sample:</p>
+      <code>
+        &lt;!DOCTYPE html&gt;<br>
+        &lt;html lang=“en” dir=“ltr”&gt;<br>
+        &lt;head&gt;<br>
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;main.css&quot; type=&quot;text/css&quot;&gt <br>
+        &lt;meta name=“viewport” content=“width=device-width, initial-scale=1.0”&gt; <br>
+        &lt;meta charset=“utf-8”&gt;<br>
+        &lt;title&gt;Title&lt;/title&gt;<br>
+        &lt;/head&gt;<br>
+        &lt;body&gt;<br>
+        &lt;div class=“grid-root”&gt;<br>
+        &lt;div class=“grid-content-wrapper-small”&gt; <br> <br>
+        HERE GOES YOUR CONTENT<br> <br>
+        &lt;/div&gt;<br>
+        &lt;/div&gt; <br>
+        &lt;/body&gt;<br>
+        &lt;/html&gt;<br>
+      </code>
+      <p>First you have to apply a root of the grid, at least I call it so. <br>
+      Basically what the "grid-root" class does is tells that a grid starts here. <br>
+      By default theres 12 columns in the grid. </p>
+
+<br><br><br><br><br><br>
 </div>
     </div>
   </body>
