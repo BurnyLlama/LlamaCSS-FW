@@ -11,6 +11,7 @@ ul li::before {
   color: var(--primary);
   display: inline-block;
   margin-left: -1rem;
+  margin-right: .3rem;
   width: 1rem;
 }
 ul ul li::before {

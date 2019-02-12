@@ -5,6 +5,7 @@
 @import "./lists/lists.css";
 @import "./images/images.css";
 @import "./grid/grid.css";
+@import "./flex-box/flex.css";
 
 
 /*Basic CSS - Probably no need to change...*/
@@ -14,8 +15,7 @@ html {
 
 /*Change Default Size*/
 :root {
-  font-size: 12pt;
-  margin: 0; padding: 0;
+  font-size: 12pt; margin: 0; padding: 0;
 }
 /**/
 
@@ -47,7 +47,7 @@ html {
 /*Horizontal Rullers*/
 hr {
   border: var(--primary) solid .05rem;
-  margin: 1rem 0;
+  margin: 2rem 0 3rem 0;
 }
 .short-hr {
   width: 40%;
