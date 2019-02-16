@@ -123,7 +123,7 @@ code {
   font-size: .85rem;
   padding: .4rem;
   display: inline-flex;
-  border-radius: 1rem;
+  border-radius: .2rem;
   background: var(--transparentB)
 }
 span {

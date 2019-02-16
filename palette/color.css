@@ -15,12 +15,12 @@
 }
 /*Bright*/
 * {
-  --redB: #ff5c5c;
-  --yellowB: #ffff5c;
-  --greenB: #5cff5c;
-  --cyanB: #5cffff;
-  --blueB: #5c5cff;
-  --purpleB: #ff5cff;
+  --redB: #ff6d6d;
+  --yellowB: #ffff6d;
+  --greenB: #6dff6d;
+  --cyanB: #6dffff;
+  --blueB: #6d6dff;
+  --purpleB: #ff6dff;
   --blackB: #222;
   --whiteB: #fff;
   --transparentB: #eeed;
@@ -28,12 +28,12 @@
 
 /*Dark*/
 * {
-  --redD: #ff3a3a;
-  --yellowD: #ffff3a;
-  --greenD: #3aff3a;
-  --cyanD: #3affff;
-  --blueD: #3a3aff;
-  --purpleD: #ff3aff;
+  --redD: #ff2929;
+  --yellowD: #ffff29;
+  --greenD: #29ff29;
+  --cyanD: #29ffff;
+  --blueD: #2929ff;
+  --purpleD: #ff29ff;
   --blackD: #000;
   --whiteD: #ddd;
   --transparentD: #111d;
@@ -267,91 +267,4 @@
 }
 .transparentDBG {
   background: var(--transparentD)
-}
-
-/*Notr-box border styles*/
-.note-red {
-  border: solid .3rem var(--red);
-}
-.note-yellow {
-  border: solid .3rem var(--yellow)
-}
-.note-green {
-  border: solid .3rem var(--green);
-}
-.note-cyan {
-  border: solid .3rem var(--cyan);
-}
-.note-blue {
-  border: solid .3rem var(--blue);
-}
-.note-purple {
-  border: solid .3rem var(--purple)
-}
-.note-black {
-  border: solid .3rem var(--black);
-}
-.note-white {
-  border: solid .3rem var(--white)
-}
-.note-transparent {
-  border: solid .3rem var(--transparent)
-}
-
-/*Bright*/
-.note-redB {
-  border: solid .3rem var(--redB);
-}
-.note-yellowB {
-  border: solid .3rem var(--yellowB)
-}
-.note-greenB {
-  border: solid .3rem var(--greenB);
-}
-.note-cyanB {
-  border: solid .3rem var(--cyanB);
-}
-.note-blueB {
-  border: solid .3rem var(--blueB);
-}
-.note-purpleB {
-  border: solid .3rem var(--purpleB)
-}
-.note-blackB {
-  border: solid .3rem var(--blackB);
-}
-.note-whiteB {
-  border: solid .3rem var(--whiteB)
-}
-.note-transparentB {
-  border: solid .3rem var(--transparentB)
-}
-
-/*Dark*/
-.note-redD {
-  border: solid .3rem var(--redD);
-}
-.note-yellowD {
-  border: solid .3rem var(--yellowD)
-}
-.note-greenD {
-  border: solid .3rem var(--greenD);
-}
-.note-cyanD {
-  border: solid .3rem var(--cyanD);
-}
-.note-blueD {
-  border: solid .3rem var(--blueD);
-}
-.note-purpleD {
-  border: solid .3rem var(--purpleD);
-}
-.note-blackD {
-  border: solid .3rem var(--blackD);
-}
-.note-whiteD {
-  border: solid .3rem var(--whiteD)
-}
-.note-transparentD {
-  border: solid .3rem var(--transparentD)
 }

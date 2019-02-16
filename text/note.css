@@ -1,0 +1,216 @@
+/*Note-box border styles*/
+.note {
+  border-left: .3rem var(--primary) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-red {
+  border-left: .3rem var(--red) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-yellow {
+  border-left: .3rem var(--yellow) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-green {
+  border-left: .3rem var(--green) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-cyan {
+  border-left: .3rem var(--cyan) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-blue {
+  border-left: .3rem var(--blue) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-purple {
+  border-left: .3rem var(--purple) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-white {
+  border-left: .3rem var(--white) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-black {
+  border-left: .3rem var(--black) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.note-transparent {
+  border-left: .3rem var(--transparent) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+ /*BRIGHT*/
+ /*Note-box border styles*/
+.noteB {
+  border-left: .3rem var(--primaryB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-red {
+  border-left: .3rem var(--redB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-yellow {
+  border-left: .3rem var(--yellowB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-green {
+  border-left: .3rem var(--greenB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-cyan {
+  border-left: .3rem var(--cyanB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-blue {
+  border-left: .3rem var(--blueB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-purple {
+  border-left: .3rem var(--purpleB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-white {
+  border-left: .3rem var(--whiteB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-black {
+  border-left: .3rem var(--blackB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteB-transparent {
+  border-left: .3rem var(--transparentB) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+
+/*DARK*/
+/*Note-box border styles*/
+.noteD {
+  border-left: .3rem var(--primaryD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-red {
+  border-left: .3rem var(--redD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-yellow {
+  border-left: .3rem var(--yellowD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-green {
+  border-left: .3rem var(--greenD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-cyan {
+  border-left: .3rem var(--cyanD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-blue {
+  border-left: .3rem var(--blueD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-purple {
+  border-left: .3rem var(--purpleD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-white {
+  border-left: .3rem var(--whiteD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-black {
+  border-left: .3rem var(--blackD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}
+.noteD-transparent {
+  border-left: .3rem var(--transparentD) solid;
+  border-radius: .15rem;
+  padding: .5rem 1rem; margin: .5rem 1rem;
+  font-size: .9rem;
+  flex-shrink: 100%;   display: inline-flex;
+}

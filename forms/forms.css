@@ -30,5 +30,20 @@ button:focus {
 }
 
 
-/*LOGIN FORM*/
-.login-container
+/*FORM*/
+form {
+  width: auto;
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: .3rem;
+  display: table;
+}
+.form-center {
+  margin: .5rem auto;
+}
+.form-popup-btn {
+
+}
+.form-popup {
+
+}

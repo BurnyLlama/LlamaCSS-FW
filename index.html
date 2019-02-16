@@ -18,16 +18,24 @@
       Yes - if you use a css-framework and update the page there will be no design issues, as you may have encountered when making pages and making changes to your css your browser sometimes caches the old styles and can only display the old styles. Having a css-framework will fix this. <br>
       Also devoloping a new page will be faster because you don't have to make a new stylesheet. </p> <br>
       <p>To use the framework easily add this in your HTML head-tag:</p>
-      <code>&lt;link href="https://burnyllama.tk/css/main.css" rel=“stylesheet”&gt;</code> <br> <br>
-      <a href="https://github.com/BurnyLlama/LlamaCSS-FW" target="_blank">Official Git Repo↗</a> <br> <br> <br> <br>
+      <code class="primaryBBG">&lt;link href="https://burnyllama.tk/css/main.css" rel=“stylesheet”&gt;</code> <br> <br>
+      <a href="https://github.com/BurnyLlama/LlamaCSS-FW" target="_blank">Official Git Repo↗</a> <br> <br>
+      <p class="bold text-big primary italic"><b><i>How are you allowed to use the frame work?</i></b></p>
+      <p> You are allowed to use this framework for free. You are also allowed to modify the code for yourself. <br>
+          Neither am I forcing you to give credit to me - but it would be nice of you to do it, you can do it by linking to the official GitHub repo or this page. <br>
+          If you want to modify the framework in the means of publishing it yourself you need to credit me, by openly credit me. You can do it by linnking to the Official GitHub repo or thyis webpage.</p>
+          <br> <br>
+          <p>Thanks for visiting this webpage - Good Luck with using the framework.</p>
 
+      <br> <br> <br>
       <h3>Content:</h3>
       <ul class="content-list">
         <li><a href="#text_features">Text Features</a></li>
         <li><a href="#list_features">List Features</a></li>
         <li><a href="#colors">Colors</a></li>
         <li><a href="#grid">Grid Guide</a></li>
-        <li> <a href="#examples">Examples</a> </li>
+        <li><a href="#examples">Examples</a></li>
+        <li><a href="#forms">Forms</a></li>
       </ul>
       <br>
 
@@ -74,7 +82,7 @@
       <p class="note">Important! The allcaps class is written in lowercase.</p>
       <p class="nocaps">NOCAPS</p>
       <p class="auto-capitalize">auto-capitalize</p>
-      <p class="note note-blue  ">Important! The auto-capitalize class is written in lowercase.</p> <br> <br>
+      <p class="note">Important! The auto-capitalize class is written in lowercase.</p> <br> <br>
 
       <h5 class="indent-short">Important/Note box</h5>
       <p class="note">You can use the "note" class on nearly any element to create one of these boxes. <br> I would recommend a paragraph though. </p>
@@ -143,14 +151,14 @@
         <li class="whiteBG">whiteBG</li>
         <li class="transparentBG">transparentBG</li>
       </ul> <br>
-      <p class="note note-yellow">By adding a "D" or a "B" for a Darker or Brighter color. <br>
+      <p class="note">By adding a "D" or a "B" for a Darker or Brighter color. <br>
         Important! If you want to do the same with the background add the "B" or "D" before the "BG".</p>
       <p>You can go to <var>/palette/colors.css</var> and customize the colors. <br>
           Even add new colors although not really that recommended.</p> <br>
 
 
 <hr>
-      <a href="#" name="grid"></a> <h2 class="underline text-center primary">Grid Guide</h2>
+      <a href="#" name="grid"></a> <h2 class="underline text-center primary">Grid guide</h2>
       <h5 class="indent-short">How is the grid of this page done?</h5>
       <p>Here is a sample:</p>
       <code class="indent-short">
@@ -173,9 +181,26 @@
       </code>
       <p>First you have to apply a root of the grid, at least I call it so. <br>
       Basically what the "grid-root" class does is tells that a grid starts here. <br>
-      By default theres 12 columns in the grid. There's a big, small and normal wrapper. There's also a nowrapper.</p> <br> <br> <br>
+      By default theres 12 columns in the grid. There's a big, small and normal wrapper. There's also a nowrapper.</p> <br>
 
 <hr>
+    <a href="#" name="forms"></a><h2 class="underline text-center primary">Forms</h2>
+    <p>You can easily create a normal form with <code>&lt;form&gt; <i>Miscellanious elements.</i> &lt;/form&gt;</code> </p>
+    <p>Sample form:</p>
+    <form class="transparentBBG">
+      <input type="text" placeholder="Regular Textbox">
+      <input type="password" placeholder="Password"> <br>
+      <button type="submit">Submit</button>
+    </form> <br>
+    <p>You can center the form with <code>class="form-center"</code>:</p>
+    <form class="transparentBBG form-center">
+      <input type="text" placeholder="Regular Textbox">
+      <input type="password" placeholder="Password"> <br>
+      <button type="submit">Submit</button>
+    </form>
+
+
+<br> <br> <hr class="hr-double hr-thick"> <hr class="hr-double hr-thick"> <br>
       <a href="#" name="examples"></a> <h2 class="underline text-center primary">Some Examples:</h2>
       <a href="landing-page.html" class="primary">Example of a landing page↗</a>
 
