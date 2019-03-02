@@ -1,0 +1,28 @@
+
+
+/*EDITOR - RTF*/
+.menu-rtf {
+  background: var(--transparentB);
+  margin: 1rem auto; padding: .5rem;
+  width: 80%; display: flex; flex-wrap: wrap;
+}
+.menu-rtf a {
+  color: var(--whiteB);
+  background: var(--primary);
+  padding: .3rem; margin: .3rem;
+  border-radius: .2rem;
+  font-weight: bold;
+  font-size: .853rem;
+  text-decoration: none;
+}
+.rtf-editor {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.rtf-editor iframe {
+  width: 100%;
+  border: .1rem var(--primary) solid;
+  border-radius: .5rem;
+  background: var(--whiteB)
+}

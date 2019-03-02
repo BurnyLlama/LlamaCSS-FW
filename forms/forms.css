@@ -1,49 +1,73 @@
-@import "animations.css";
-input {
-  padding: .2rem; margin: .1rem;
-  font-size: 0.85rem;
-  border: 0;
-  outline: 0;
-}
-input[type=text], input[type=password] {
-  border-bottom: var(--primary) .1rem solid;
-}
-input[type=text]:focus, input[type=password]:focus {
-  animation: textFieldFocus forwards .25s;
-}
-input[type=radio], input[type=checkbox] {
-  user-select: all;
-}
-textarea {
-  padding: .2rem;
-  font-size: .8rem;
-  outline: 0;
-  font-family: 'font', sans-serif;
-}
-button {
-  padding: .5rem; margin: .1rem;
-  font-size: 1rem;
-  border: 0; outline: 0;
-}
-button:focus {
-  animation: buttonClick forwards .25s;
-}
+  @import "animations.css";
+  label {
+    grid-column: 2 / 3;
+    align-self: center;
+    text-align: right;
+  }
+  input {
+    padding: .3rem .5rem; margin: .3rem;
+    font-size: 1rem;
+    border: 0;
+    outline: 0;
+    grid-column: 2 / 5;
+    text-align: center;
+  }
+  input::placeholder {
+    color: inherit;
+  }
+  input[type=text], input[type=password] {
+    border-bottom: var(--primary) .1rem solid;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    animation: textFieldFocus forwards .25s;
+  }
+  input[type=radio], input[type=checkbox] {
+    user-select: all;
+  }
+  textarea {
+    padding: .2rem;
+    font-size: .9rem;
+    outline: 0;
+    font-family: 'font', sans-serif;
+    width: auto;
+  }
+  .textarea-full {
+    width: 100%;
+  }
+  button {
+    padding: .5rem; margin: .1rem;
+    font-size: 1rem;
+    border: 0; outline: 0;
+    grid-column: 3 / 4;
+  }
+  button:focus {
+    animation: buttonClick forwards .25s;
+  }
+    .button-center {
+    margin: inherit auto;
+  }
+
+  /*FORM*/
+  form {
+    width: auto;
+    margin: .5rem;
+    padding: 1rem;
+    border-radius: .3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .form-center {
+    margin: .5rem auto;
+  }
+  .form-popup-btn {
+
+  }
+  .form-popup {
+
+  }
 
 
-/*FORM*/
-form {
-  width: auto;
-  margin: .5rem;
-  padding: 1rem;
-  border-radius: .3rem;
-  display: table;
-}
-.form-center {
-  margin: .5rem auto;
-}
-.form-popup-btn {
-
-}
-.form-popup {
-
-}
+  /*SIZES*/
+  .form-w80 {
+    width: 80%;
+  }

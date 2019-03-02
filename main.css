@@ -7,6 +7,7 @@
 @import "./grid/grid.css";
 @import "./flex-box/flex.css";
 @import "./text/note.css";
+@import "./iframe/iframe.css";
 
 
 /*Basic CSS - Probably no need to change...*/
@@ -46,7 +47,7 @@ hr {
   border: var(--primary) solid .05rem;
 }
 .hr-center {
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .hr-dashed {
   border: var(--primary) dashed .05rem;
