@@ -114,9 +114,12 @@ u {
 }
 var {
   font-style: normal;
+  font-size: .8rem;
   font-family: 'Roboto Mono', monospace;
-  padding: .05rem; margin: .1rem;
+  padding: .3rem; margin: .5rem;
+  margin: 0;
   background: var(--transparentB);
+  border-radius: .2rem;
 }
 code {
   font-family: 'Roboto Mono', monospace;
@@ -124,7 +127,7 @@ code {
   padding: .4rem;
   display: inline-flex;
   border-radius: .2rem;
-  background: var(--transparentB)
+  background: var(--transparentB);
 }
 span {
   color: var(--primary);
@@ -134,4 +137,14 @@ a {
 }
 a:visited {
   color: var(--purple);
+}
+a[target=_blank]::after {
+  content: '';
+  background-image: url(../images/svg/Arrow/red.svg);
+  background-size: .8em .8em;
+  display: inline-flex;
+  align-self: center;
+  margin: .3em .3em .1em .3em;
+  height: .8em;
+  width: .8em;
 }

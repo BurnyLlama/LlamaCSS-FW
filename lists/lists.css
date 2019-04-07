@@ -29,42 +29,48 @@ ul ul ul li::before {
   width: 1rem;
 }
  ul ul {
-   font-size: .9rem;
+   font-size: .95rem;
  }
 
  ul ul ul {
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 
 ol {
-    list-style-type: none;
+  list-style-type: none;
 }
 ol li {
-    counter-increment: count-me;
+  counter-increment: count-me;
 }
 ol li::before {
-    content: counter(count-me);
-    display: inline-block;
-    margin-right: 1rem;
-    color: var(--primary);
-    font-weight: bold;
+  content: counter(count-me);
+  display: inline-block;
+  margin-right: 1rem;
+  color: var(--primary);
+  font-weight: bold;
+}
+ol ol li {
+  counter-increment: s-count-me;
 }
 ol ol li::before {
-    content: counter(count-me);
-    color: var(--blue);
-    font-weight: bold;
+  content: counter(count-me)"."counter(s-count-me);
+  color: var(--blue);
+  font-weight: bold;
+}
+ol ol ol li {
+  counter-increment: t-count-me;
 }
 ol ol ol li::before {
-    content: counter(count-me);
-    color: var(--purple);
-    font-weight: bold;
+  content: counter(count-me)"."counter(s-count-me)"."counter(t-count-me);
+  color: var(--purple);
+  font-weight: bold;
 }
 ol ol {
-  font-size: .9rem;
+  font-size: .95rem;
 }
 ol ol ol {
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 
