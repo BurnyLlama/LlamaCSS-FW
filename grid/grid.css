@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+
+/* GRID UI --- WRAPPER */
+
 .grid-root {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -20,3 +23,5 @@
 .grid-content-nowrapper {
   grid-column: 1 / 13;
 }
+
+/* GRID UI --- SIDEBAR, HEADER, CONTENT,*/

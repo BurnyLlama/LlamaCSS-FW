@@ -1,10 +1,12 @@
+@import "./animations.css";
+
 ul {
   list-style: none;
-  margin: 0 auto;
+  margin: 0 auto; display: inline-block;
 }
 li {
   padding: .3rem;
-  display: table;
+  display: flex;
 }
 ul li::before {
   content: "\2022";
@@ -96,4 +98,60 @@ ol ol ol {
 .content-list li::before {
   content: "#";
   font-size: 1.5rem;
+}
+
+
+/* MENUS */
+.menu-1 {
+  width: 2rem; height: 2rem;
+  background: url(../images/svg/Menu/Menu\ -\ Red\ –\ 5.svg);
+  background-size: 2rem 2rem;
+  margin: 0; padding: 0; 
+}
+.menu-1-content {
+  display: none; flex-wrap: wrap;
+  margin: 0; padding: 0;
+  border-radius: .2rem;
+}
+.menu-1-content * {
+  margin: 1rem 2rem; width: 25rem;
+}
+.menu-1:hover + .menu-1-content {
+  animation-name: menu1;
+  animation-duration: .2s; 
+  animation-delay: 0ms; 
+  animation-fill-mode: forwards;
+  display: flex;  
+}
+.menu-1:hover + .menu-1-content * {
+  animation-name: menu1-show;
+  animation-duration: .2s; 
+  animation-delay: 0ms; 
+  animation-fill-mode: forwards;
+  display: flex;  
+}
+.menu-1-content:hover {
+  display: flex;
+  background: var(--red);
+}
+
+/**/
+
+.menubar {
+  margin: .5rem auto; 
+  width: 80%; padding: .5rem .5rem 1rem .5rem;
+  border-radius: .5rem;
+  background: var(--transparentB);
+  display: flex; flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.menubar button {
+  color: var(--black); background: none; 
+  text-decoration: none;
+  padding: .3rem 1.5rem; animation: none;
+  border-bottom: .2rem solid var(--blueB);
+}
+.menubar #active {
+  border-bottom: .2rem solid var(--blue);
 }

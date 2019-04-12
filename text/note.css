@@ -1,216 +1,216 @@
 /*Note-box border styles*/
-.note {
+note {
   border-left: .3rem var(--primary) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-red {
+note-red {
   border-left: .3rem var(--red) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-yellow {
+note-yellow {
   border-left: .3rem var(--yellow) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-green {
+note-green {
   border-left: .3rem var(--green) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-cyan {
+note-cyan {
   border-left: .3rem var(--cyan) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-blue {
+note-blue {
   border-left: .3rem var(--blue) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-purple {
+note-purple {
   border-left: .3rem var(--purple) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-white {
+note-white {
   border-left: .3rem var(--white) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-black {
+note-black {
   border-left: .3rem var(--black) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.note-transparent {
+note-transparent {
   border-left: .3rem var(--transparent) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
  /*BRIGHT*/
  /*Note-box border styles*/
-.noteB {
+noteB {
   border-left: .3rem var(--primaryB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-red {
+noteB-red {
   border-left: .3rem var(--redB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-yellow {
+noteB-yellow {
   border-left: .3rem var(--yellowB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-green {
+noteB-green {
   border-left: .3rem var(--greenB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-cyan {
+noteB-cyan {
   border-left: .3rem var(--cyanB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-blue {
+noteB-blue {
   border-left: .3rem var(--blueB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-purple {
+noteB-purple {
   border-left: .3rem var(--purpleB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-white {
+noteB-white {
   border-left: .3rem var(--whiteB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-black {
+noteB-black {
   border-left: .3rem var(--blackB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteB-transparent {
+noteB-transparent {
   border-left: .3rem var(--transparentB) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
 
 /*DARK*/
 /*Note-box border styles*/
-.noteD {
+noteD {
   border-left: .3rem var(--primaryD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap; 
 }
-.noteD-red {
+noteD-red {
   border-left: .3rem var(--redD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-yellow {
+noteD-yellow {
   border-left: .3rem var(--yellowD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-green {
+noteD-green {
   border-left: .3rem var(--greenD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-cyan {
+noteD-cyan {
   border-left: .3rem var(--cyanD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-blue {
+noteD-blue {
   border-left: .3rem var(--blueD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-purple {
+noteD-purple {
   border-left: .3rem var(--purpleD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-white {
+noteD-white {
   border-left: .3rem var(--whiteD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-black {
+noteD-black {
   border-left: .3rem var(--blackD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }
-.noteD-transparent {
+noteD-transparent {
   border-left: .3rem var(--transparentD) solid;
   border-radius: .15rem;
   padding: .5rem 1rem; margin: .5rem 1rem;
-  font-size: .9rem;
-  flex-shrink: 100%;   display: inline-flex;
+  font-size: .9rem; background: var(--transparentB);
+  flex-shrink: 100%;   display: inline-flex; flex-wrap: wrap;
 }

@@ -1,0 +1,17 @@
+@keyframes menu1 {
+    0% {
+        background: var(--white);
+    }
+    100% {
+        background: var(--red);
+        display: flex;  
+    }
+}
+@keyframes menu1-show {
+    0% {
+        display: none; height: 0;
+    }
+    100% {
+        display: flex; height: auto;
+    }
+}

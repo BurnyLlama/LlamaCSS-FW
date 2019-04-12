@@ -116,10 +116,10 @@ var {
   font-style: normal;
   font-size: .8rem;
   font-family: 'Roboto Mono', monospace;
-  padding: .3rem; margin: .5rem;
-  margin: 0;
+  padding: .1rem; margin: 0 .2rem;
   background: var(--transparentB);
   border-radius: .2rem;
+  display: inline-block;
 }
 code {
   font-family: 'Roboto Mono', monospace;
