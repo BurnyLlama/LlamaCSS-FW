@@ -1,1 +1,59 @@
 /*Will I even bother???*/
+.faq-section {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.faq-card {
+  width: 45%;
+  height: auto;
+  background-color: var(--transparentB);
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: .5rem;
+}
+.faq-section #wide {
+  width: 85%;
+}
+
+.crew-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.crew-member {
+  width: 45%;
+  height: auto;
+  background-color: var(--transparentB);
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: .5rem;
+  text-align: center;
+}
+
+
+.showcase {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+}
+.showcase img {
+  width: 20rem; height: auto;
+  border-radius: 3rem; margin: 1rem;
+}
+.showcase .showcase-content {
+  width: 60%; margin: 1rem;
+}

@@ -16,8 +16,30 @@ html {
 }
 
 /*Change Default Size*/
-:root {
-  font-size: 12pt; margin: 0; padding: 0;
+@media screen and (min-width: 0px) {
+  :root {
+    font-size: 9pt; margin: 0; padding: 0;
+  }
+}
+@media screen and (min-width: 500px) {
+  :root {
+    font-size: 10pt; margin: 0; padding: 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  :root {
+    font-size: 11pt; margin: 0; padding: 0;
+  }
+}
+@media screen and (min-width: 1500px) {
+  :root {
+    font-size: 12pt; margin: 0; padding: 0;
+  }
+}
+@media screen and (min-width: 2000px) {
+  :root {
+    font-size: 13pt; margin: 0; padding: 0;
+  }
 }
 /**/
 
@@ -40,24 +62,29 @@ html {
 /*Horizontal Rullers*/
 hr {
   border: var(--primary) solid .05rem;
-  margin: 2rem 0 3rem 0;
+  margin: 2rem auto; width: 85%;
 }
-.short-hr {
+.hr-short {
   width: 40%;
-  border: var(--primary) solid .05rem;
+  border: solid .05rem;
 }
 .hr-center {
   margin: 2rem auto;
 }
 .hr-dashed {
-  border: var(--primary) dashed .05rem;
+  border: dashed .05rem;
 }
 .hr-thick {
-  border: var(--primary) solid .1rem;
+  border: solid .1rem;
 }
 .hr-thick-dashed {
-  border: var(--primary) dashed .1rem;
+  border: dashed .1rem;
 }
 .hr-double {
   margin: 0;
+}
+
+
+.invisable {
+  visibility: hidden;
 }

@@ -106,7 +106,7 @@ ol ol ol {
   width: 2rem; height: 2rem;
   background: url(../images/svg/Menu/Menu\ -\ Red\ –\ 5.svg);
   background-size: 2rem 2rem;
-  margin: 0; padding: 0; 
+  margin: 0; padding: 0;
 }
 .menu-1-content {
   display: none; flex-wrap: wrap;
@@ -118,17 +118,17 @@ ol ol ol {
 }
 .menu-1:hover + .menu-1-content {
   animation-name: menu1;
-  animation-duration: .2s; 
-  animation-delay: 0ms; 
+  animation-duration: .2s;
+  animation-delay: 0ms;
   animation-fill-mode: forwards;
-  display: flex;  
+  display: flex;
 }
 .menu-1:hover + .menu-1-content * {
   animation-name: menu1-show;
-  animation-duration: .2s; 
-  animation-delay: 0ms; 
+  animation-duration: .2s;
+  animation-delay: 0ms;
   animation-fill-mode: forwards;
-  display: flex;  
+  display: flex;
 }
 .menu-1-content:hover {
   display: flex;
@@ -138,7 +138,7 @@ ol ol ol {
 /**/
 
 .menubar {
-  margin: .5rem auto; 
+  margin: .5rem auto;
   width: 80%; padding: .5rem .5rem 1rem .5rem;
   border-radius: .5rem;
   background: var(--transparentB);
@@ -147,11 +147,24 @@ ol ol ol {
   align-items: center;
 }
 .menubar button {
-  color: var(--black); background: none; 
+  color: var(--black); background: none;
   text-decoration: none;
   padding: .3rem 1.5rem; animation: none;
   border-bottom: .2rem solid var(--blueB);
 }
 .menubar #active {
   border-bottom: .2rem solid var(--blue);
+}
+/* ----- */
+.changelog {
+
+}
+.changelog p {
+  font-weight: bold;
+  font-size: .8rem;
+}
+.changelog code {
+  font-family: 'Roboto Mono';
+  font-size: 1rem;
+  display: block;
 }
