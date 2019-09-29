@@ -1,0 +1,23 @@
+.switch .switcher {
+    opacity: 0; width: 0; height: 0;
+}
+.switch .slider {
+    height: 2em; width: 6em; background: var(--alt-bg); position: absolute; border-radius: 2em; margin: 0;
+    transition: .2s;
+}
+.switch .slider .dot {
+    content: ""; position: absolute;
+    width: 3em; height: 3em; border-radius: 2em;
+    background: var(--mg); margin: -.5em 0;
+    transition: .2s;
+}
+.switch .switcher:checked ~ .slider {
+    height: 2em; width: 6em; background: var(--prim-t); position: absolute; border-radius: 2em; margin: 0;
+    transition: .2s;
+}
+.switch .switcher:checked ~ .slider .dot {
+    content: ""; position: absolute;
+    width: 3em; height: 3em; border-radius: 2em;
+    background: var(--prim); margin: -.5em 0 0 3em;
+    transition: .2s;
+}
