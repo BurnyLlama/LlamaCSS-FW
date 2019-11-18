@@ -16,6 +16,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+* {
+    font-size: 1em;
+}
+
 h1 {
     font-size: 4em; font-weight: bold;
 }
@@ -40,8 +44,12 @@ h6 {
     font-size: 2.5em; font-weight: normal;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0 .5em calc(20rem + 7rem - 3em);
+}
+
 p {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 b {

@@ -1,7 +1,13 @@
 @import './text/text.css';
 @import './colors/colors.css';
-@import './utilities/utilities.css';
+@import './inputs/inputs.css';
 
-body {
-    font-size: 6pt;
-}
+:root {font-size: 2pt;}
+@media screen and (max-width: 800px) {:root {font-size: 2.5pt;}}
+
+/* Define the scale of the size. */
+body {font-size: 2rem;}
+
+/* Animation to ease in the content. */
+* {animation: page-on-load .5s ease-in 0s 1 forwards;}
+@keyframes page-on-load {from {opacity: 0;} to {opacity: 1;}}
